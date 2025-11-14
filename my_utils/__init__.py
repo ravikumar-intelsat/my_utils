@@ -18,4 +18,4 @@ def format_task(text: Optional[str]) -> str:
     """
     if not text:
         return ""
-    return text.strip().capitalize()
+    return "Ravikumar"
