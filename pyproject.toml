@@ -15,7 +15,7 @@ classifiers = [
 ]
 
 [project.urls]
-Homepage = "https://github.com/YOURUSERNAME/my_utils"
+Homepage = "https://github.com/ravikumar-intelsat/my_utils"
 
 [tool.hatch.build.targets.wheel.shared-data]
 "my_utils.version" = "0.1.0"
