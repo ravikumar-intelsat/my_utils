@@ -17,5 +17,8 @@ classifiers = [
 [project.urls]
 Homepage = "https://github.com/ravikumar-intelsat/my_utils"
 
+[tool.hatch.build.targets.wheel]
+packages = ["my_utils"]  # ← THIS IS THE FIX! Tells Hatch to include your src/my_utils folder
+
 [tool.hatch.build.targets.wheel.shared-data]
 "my_utils.version" = "0.1.0"
