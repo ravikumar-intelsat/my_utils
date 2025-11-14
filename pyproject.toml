@@ -1,0 +1,21 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "my_utils"
+version = "0.1.0"
+description = "Simple task formatter utility"
+readme = "README.md"
+requires-python = ">=3.8"
+dependencies = []  # Add any deps here later
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+]
+
+[project.urls]
+Homepage = "https://github.com/YOURUSERNAME/my_utils"
+
+[tool.hatch.build.targets.wheel.shared-data]
+"my_utils.version" = "0.1.0"
